@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Man Go!</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="flex justify-center items-center gap-4 p-8">
+      <h1 class="text-sky-300 text-2xl">Welcome X-Man Go!</h1>
+      <nav class="grow flex items-center gap-4">
+        <a
+          class="hover:animate-bounce hover:text-green-400 pr-2 pl-2"
+          href="#home"
+          >Home</a
+        >
+        <a
+          class="hover:animate-bounce hover:text-green-400 pr-2 pl-2"
+          href="#about"
+          >About</a
+        >
+        <a
+          class="hover:animate-bounce hover:text-green-400 pr-2 pl-2"
+          href="#contact"
+          >Contact</a
+        >
+        <a
+          class="hover:animate-bounce hover:text-green-400 pr-2 pl-2"
+          href="#projects"
+          >Projects</a
+        >
+      </nav>
+    </header>
+    <!-- "https://picsum.photos/200/300" -->
+    <!-- <main  class="flex justify-center items-center gap-4 p-8"> -->
+    <section
+      id="home"
+      class="relative h-screen w-full bg-cover bg-center flex items-center justify-center text-center"
+      style="
+        background-image: url('https://fastly.picsum.photos/id/770/1500/1000.jpg?hmac=8RjHgoLMWd-7ODvcIwqg5p3U2nucjPRvdv1CwdwR3mk');">
+      <!-- Dark Overlay -->
+      <!-- <div class="absolute inset-0 bg-black bg-opacity-60"></div> -->
+
+      <!-- Content -->
+      <div class="content-cotainer">
+        <div class="relative z-10 text-white px-4">
+          <h1 class="text-5xl md:text-6xl font-bold mb-4">👋 Namaste, Duniya!</h1>
+          <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-6">
+            Main ek passionate beginner hoon jo web development seekh raha hoon.
+            Yeh meri HTML, CSS aur JavaScript wali journey ka start hai!
+          </p>
+          <a href="#projects">
+            <button
+              class="bg-teal-600 hover:bg-teal-700 transition-all py-3 px-6 rounded-lg text-white text-lg"
+            >
+              Explore Projects 🚀
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex justify-center items-center flex-col pt-4 pb-4 bg-neutral-800 text-white">
+      <p>© 2025 Meri Website. All rights reserved.</p>
+      <p>Follow me on: <a href="#" class="text-blue-500">Twitter</a> | <a class="text-blue-500" href="#">GitHub</a></p>
+    </footer>
+
+    <script>
+      // Simple alert on button click (already handled in HTML)
+      // You can add more JS later, e.g., to track button clicks or show a counter
+    </script>
+  </body>
+</html>
